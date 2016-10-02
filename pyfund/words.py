@@ -52,4 +52,4 @@ def main(url):
 	print_items(words)
 
 if __name__ == '__main__':
-	main(sys.arg[1]) # The )th arg is the module filename
+	main(sys.argv[1]) # The )th arg is the module filename
